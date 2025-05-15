@@ -30,5 +30,18 @@ nav ul {
 }
 
 .list-item {
-    padding-left: 10px;
+    padding-left: 15px;
+}
+
+/* style for hero section */
+.hero {
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.hero-image {
+    width: 50%;
+    /* height: 30px; */
 }
