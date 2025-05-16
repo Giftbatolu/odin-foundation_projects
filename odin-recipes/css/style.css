@@ -36,12 +36,24 @@ nav ul {
 /* style for hero section */
 .hero {
     display: flex;
-    width: 600px;
-    justify-content: center;
-    align-items: baseline;
+    /* width: 100%; */
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 40px 0;
 }
 
-.hero-image {
-    width: 50%;
+.hero-text .hero-image {
+    flex: 1;
+}
+
+.hero-text {
+    word-wrap: break-word;
+    white-space: normal;
+    max-width: 600px;
+}
+
+.hero-image img {
+    width: 100%;
     /* height: 30px; */
+    height: auto;
 }
