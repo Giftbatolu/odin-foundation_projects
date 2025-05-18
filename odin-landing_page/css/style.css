@@ -1,13 +1,61 @@
+/* To remove the default magin and padding from the page */
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* To remove the deault style and margin from ul element */
 nav ul {
     list-style: none;
+    margin: 0;
+}
+/* To remove default margin from p element */
+p {
+    margin: 0;
 }
 
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+.link {
+    display: flex;
+    padding-left: 60px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 60px;
+}
+
+.link-list {
+    padding-left: 20px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.link-list, .hero-second-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
 }
