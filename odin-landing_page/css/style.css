@@ -20,7 +20,7 @@ nav {
     align-items: center;
 }
 
-header {
+header, footer {
     background-color: #1f2937;
 }
 
@@ -73,18 +73,77 @@ header {
     border-width: 0px;
 }
 
+.random-header {
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+}
+
 .random-info {
     display: flex;
     justify-content: space-between;
     padding: 0px 50px;
-    gap: 5px;
+    gap: 45px;
+    margin-bottom: 60px;
 }
+
 .features {
     flex: 1;
 }
 
+.features  p {
+    text-align: center;
+}
+
 .feature-box {
-    width: 50px;
-    /* height: 60px; */
+    width: 100%;
+    height: 150px;
     border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.testimonial p {
+    background-color: #e7e5eb;
+    padding: 60px 50px;
+    text-align: center;
+    font-style: italic;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.testimonial span {
+    font-weight: bold;
+    float: right;
+    font-size: 26px;
+    padding-top: 8px;
+}
+
+.call-action {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 50px;
+    background-color: #3882f6;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.call p {
+    color: whitesmoke;
+}
+
+.call-action-p {
+    font-weight: 900;
+}
+
+.call-action .btn {
+    border-radius: 5px;
+    border: 2px solid;
+    color: white;
+}
+
+footer p {
+    padding: 30px;
+    text-align: center;
+    color: white;
 }
