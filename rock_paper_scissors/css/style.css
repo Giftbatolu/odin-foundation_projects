@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 50%;
+    margin: 0 auto;
+    /* height: 100vh; */
+    background-color: rgb(212, 195, 228);
+    padding: 200px;
+}
+
+.main {
+    background-color: green;
+    padding: 50px;
+    margin: 10px;
+}
